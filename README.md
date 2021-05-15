@@ -34,7 +34,7 @@ Latest code: analysis/bcr_prediction/Binary Prediction Recurrence Final.ipynb
   Latest code : pre_processing/data_merger.py
 - Survival Data generator
   The following codes create survival data for the BCR survival analysis and causal inference analysis. Latest codes : pre_processing/create_cox_df.py, pre_processing/create_cox_df_causal.py 
-- Extracting PSA values using rules, as well as flagging specific PSA values such as when they are undetectable and percent free. 
+- Extracting PSA values using rules, as well as flagging specific PSA values such as when they are undetectable and percent free.    
   Latest codes: pre-processing/RPDR_Lab.ipynb  
 - Calculating biochemical recurrence among patients. Detectable post-op PSA is set to 0 when the patient's first PSA after surgery is either determined to be undetectable or PSA was detected but less than 0.10. Detectable post-op PSAs are only determined for patients who had a PSA test between 2 weeks and 6 months after surgery. bcr_rp is set to 1 when a patient with undetectable post-op PSA had two instances of PSA > 0.2 after surgery. Date of recurrence is set to the second PSA test > 0.2, or the latest PSA test if the patient did not have recurrence.    
   Latest codes: pre-processing/Outcome.ipynb  
