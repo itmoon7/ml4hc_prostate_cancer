@@ -12,9 +12,9 @@ Codes :
 
 2. Pre-processing
 - Rule-based NLP algorithm for extracting clinical features from the unstructured notes. See https://docs.google.com/document/d/1aUFjvz8bumhCnSUDJ8w4CtKoNmGBKYTGeq0cMqoOOl0/edit and https://docs.google.com/document/d/1pRA2XcAxjbqbji8WHFfJD2bvwgo-EgryGLNRiq-gYT4/edit for more details on how the algorithm works on Prostate biopsy pathology report and Radical prostatectomy Pathology report, respectively.
-  Latest codes : process_pat_v4.py (pathology report) and process_pat_biopsy.py (biopsy report)
+  Latest codes : pre_processing/process_pat_v4.py (pathology report) and pre_processing/process_pat_biopsy.py (biopsy report)
 - Data merging script. It merges the processed files from different sources of EHR data. 
-  Latest code : data_merger.py
+  Latest code : pre_processing/data_merger.py
 
 
 3. Processed data
