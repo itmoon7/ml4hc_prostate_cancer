@@ -7,8 +7,8 @@ Team Members :
 Dexin Li, Intae Moon, Madhur Nayan, Ashwin Srinivasan
 
 Requires pacakges :
-- R :
-- Python : 
+- R : survival, survminer
+- Python : pandas, numpy, tqdm, xgboost, sklearn, matplotlib, doubleml
 
 
 Codes :
