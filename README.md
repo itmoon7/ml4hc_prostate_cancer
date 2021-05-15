@@ -6,11 +6,23 @@ Prostate cancer is one of the most commonly diagnosed cancer among males in the 
 Team Members :
 Dexin Li, Intae Moon, Madhur Nayan, Ashwin Srinivasan
 
+Requires pacakges :
+- R :
+- Python : 
+
+
 Codes :
 1. Analysis
-- Survival analysis on the cohort of patients who underwent BCR
+- Survival analysis on the cohort of patients who underwent BCR.
+The following R script performs Kaplan-Meier estimation of survival curves of the patients in the cohort across different risk groups. It also performs the Cox Regression on the cohort to identify clinical features predictive of BCR.
+Latest codes : /survival_analysis_bcr/cox_reg_km_plotter_bcr.R
+
 - Survival analysis on the cohort of patients with prostate biopsy pathology records demonstrating malignancy 
+The following R script performs Kaplan-Meier estimation of survival curves of the patients in the cohort. It also performs the covariate adjustment and propensity re-weighting using Cox Proportional Hazard refression framework. 
+Latest code : /survival_analysis_biopsy/ipw_survival.R
 - Estimation of Heterogeneous group treatment effects
+The following code performs propensity score prediction which is to be used for re-weighting hazard functions in Cox Regression. It also performs visualization of estimated survival curves across different risk groups. Finally, using Double Machine Learning framework (https://docs.doubleml.org/stable/index.html), it estimates average treatment effect as well as group average treatment effects across the risk groups.  
+Latest code : /double_ml_causal_analysis/prostate_causal_inference.ipynb
 
 2. Pre-processing
 - Rule-based NLP algorithm for extracting clinical features from the unstructured notes. See https://docs.google.com/document/d/1aUFjvz8bumhCnSUDJ8w4CtKoNmGBKYTGeq0cMqoOOl0/edit and https://docs.google.com/document/d/1pRA2XcAxjbqbji8WHFfJD2bvwgo-EgryGLNRiq-gYT4/edit for more details on how the algorithm works on Prostate biopsy pathology report and Radical prostatectomy Pathology report, respectively.
