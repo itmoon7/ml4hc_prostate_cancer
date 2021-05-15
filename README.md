@@ -8,7 +8,7 @@ Dexin Li, Intae Moon, Madhur Nayan, Ashwin Srinivasan
 
 Requires pacakges :
 - R : survival, survminer
-- Python : pandas, numpy, tqdm, xgboost, sklearn, matplotlib, doubleml
+- Python : pandas, numpy, tqdm, xgboost, sklearn, matplotlib, doubleml, pickle, lifelines
 
 
 Codes :
@@ -29,6 +29,9 @@ Latest code : /double_ml_causal_analysis/prostate_causal_inference.ipynb
   Latest codes : pre_processing/process_pat_v4.py (pathology report) and pre_processing/process_pat_biopsy.py (biopsy report)
 - Data merging script. It merges the processed files from different sources of EHR data. 
   Latest code : pre_processing/data_merger.py
+- Survival Data generator
+  The following codes create survival data for the BCR survival analysis and causal inference analysis. Latest codes : pre_processing/create_cox_df.py, pre_processing/create_cox_df_causal.py 
+  
 
 
 3. Processed data
