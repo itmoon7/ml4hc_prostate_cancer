@@ -1,15 +1,5 @@
 library("survival")
 library("survminer")
-# install.packages("lfe")
-# install.packages("hdm")
-# install.packages("glmnet")
-# install.packages("sandwich")
-# install.packages("randomForest")
-library(lfe)
-library(hdm)
-library(glmnet)
-library(sandwich)
-library(randomForest)
 
 # use non-factorized version to plot semi-parametric survival probabilities 
 setwd("~/Downloads/prostate_cancer_project/codes")
