@@ -6,5 +6,16 @@ Prostate cancer is one of the most commonly diagnosed cancer among males in the 
 
 Codes :
 1. Analysis
+- Survival analysis on the cohort of patients who underwent BCR
+- Survival analysis on the cohort of patients with prostate biopsy pathology records demonstrating malignancy 
+- Estimation of Heterogeneous group treatment effects
+
 2. Pre-processing
+- Rule-based NLP algorithm for extracting clinical features from the unstructured notes. See https://docs.google.com/document/d/1aUFjvz8bumhCnSUDJ8w4CtKoNmGBKYTGeq0cMqoOOl0/edit and https://docs.google.com/document/d/1pRA2XcAxjbqbji8WHFfJD2bvwgo-EgryGLNRiq-gYT4/edit for more details on how the algorithm works on Prostate biopsy pathology report and Radical prostatectomy Pathology report, respectively.
+  Latest codes : process_pat_v4.py (pathology report) and process_pat_biopsy.py (biopsy report)
+- Data merging script. It merges the processed files from different sources of EHR data. 
+  Latest code : data_merger.py
+
+
 3. Processed data
+- Cannot be included due to the proprietary nature of the data (Need IRB approval)
